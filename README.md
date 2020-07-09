@@ -1,7 +1,6 @@
 # ali-ddns
 ali-ddns api wapper
 
-
 ## Usage
 
 - provide the key when starting the program
@@ -19,6 +18,8 @@ then visit
 then visit
 
 `http://ip:port/update?domain=your.domian&record=example&address=8.8.8.8&id=yoru_access_key_id&sec=your_access_key_secret`
+
+> argument zone means "service area" refers to the area where the api server is located, default is **cn-hangzhou**
 
 ### Install as a service
 edit **/etc/systemd/system/ali-ddns.service**
