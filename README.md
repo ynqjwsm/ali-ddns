@@ -5,7 +5,7 @@ ali-ddns api wapper
 
 - provide the key when starting the program
 
-`/path/to/your/file/ali-ddns server -a {bind_address} -p {bind_port} -z {zone}`
+`/path/to/your/file/ali-ddns server -a {bind_address} -p {bind_port} -i {AccessKeyId} -s {AccessKeySecret} -z {zone}`
 
 then visit
 
@@ -13,7 +13,7 @@ then visit
 
 - provide key when visiting the web api
 
-`/path/to/your/file/ali-ddns server -a {bind_address} -p {bind_port} -i {AccessKeyId} -s {AccessKeySecret} -z {zone}`
+`/path/to/your/file/ali-ddns server -a {bind_address} -p {bind_port} -z {zone}`
 
 then visit
 
